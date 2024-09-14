@@ -1,171 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            background-color: rgb(216, 219, 221);
-        }
-        .top{
-            width: 100vw;
-            height: 70px;
-            background-color: white;
-        }
-        .image{
-            margin-top: 10px;
-            margin-left: 100px;
-        }
-        .top input{
-            padding-left: 10px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            background-color: rgba(248, 249, 253, 0.916);
-            border: none;
-            width: 420px;
-            height: 25px;
-            margin-top: 8px;
-            margin-left: 60px;
-            margin-bottom: 30px;
-            font-size: 17px;
-            border-radius: 30px;
-        }
-       .top button{
-        margin-left: 30px;
-        margin-bottom: 90px;
-        position: relative;
-        border: 1px solid white;
-        background-color: white;
-        height: 35px;
-        width: 60px;
-        border-radius: 5px;
-        font-size: 17px;
-
-
-       } 
-       /* 
-       .top .sell{
-        width: 130px;
-        } */
-        .first{
-            width: 99vw;
-            margin: 7px;
-            height: 135px;
-            background-color: rgb(254, 254, 254);
-            display: flex;
-        }
-        .first div{
-            background-color: white;
-            margin: 0px 30px;
-            width: 90px;
-        }
-        .first img{
-            width: 80px;
-            height: 80px;
-            margin-top: 14px;
-            border-radius: 12px;
-        }
-        .first a{
-            background-color: white;
-            text-decoration: none;
-            color: black;
-        }
-        .top i{
-            position: absolute;
-            left: 50%;
-            top: 5.1%;
-            font-size: 30px;
-            color: rgb(12, 137, 246);
-            background-color:transparent;
-            width: 30px;
-            text-align: center;
-        }
-        .banner{
-            width: 99vw;
-            margin: 5px;
-            height: 180px;
-            background-color: white;
-            position: relative;
-        }
-        .slide{
-            width: 99vw;
-            margin: 15px 5px;
-            height: 180px;
-            background-color: white;
-        }
-        .icon h2{
-            background-color: white;
-            font-size: 30px;
-        }
-        .banner img{
-            width: 98vw;
-            height: 170px;
-            margin: 3.5px;
-            background-color: white;
-            position: absolute;
-
-        }
-        .icon {
-            width: 99vw;
-            display: flex;
-            height: 35px;
-            background-color: white;
-            position: relative;
-        }
-        .icon i{
-            color: white;
-            font-size: 21px;
-            text-align: center;
-            position: absolute;
-            right: 10px;
-            top: 10px;
-            float: right;
-            width: 23px;
-            height: 23px;
-            border-radius: 70px;
-            background-color: rgb(12, 121, 254);
-        }
-        .display{
-            display: flex;
-            background-color: white;
-            overflow: hidden;
-        }
-        .display img{
-            width: 200px;
-            height: 180px;
-            background-color: white;
-        }
-        .display div{
-            margin: 0 30px;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    
 </head>
+
 <body>
     <div class="top">
         <img class="image" width="90px" height="40px" src="Screenshot 2024-09-07 213100.png" alt="logo">
         <input type="text" placeholder="Search Products,Brands and More ">
         <i class="ri-search-line"></i>
-        <button>Login</button>
-        <button>Cart</button>
-        <button class="sell">Become a Seller</button>
+        <a  href=""><i class="ri-account-circle-line"></i>Login</a>
+        <a href=""><i class="ri-shopping-cart-2-line"></i>Cart</a>
+        <a href=""><i class="ri-store-2-line"></i>Become a Seller</a>
     </div>
     <div class="first">
-        <div><img src="" alt=""><a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&semcmpid=SEM_grocery_perf_max_RC/BBNP&gad_source=1&gclid=CjwKCAjwufq2BhAmEiwAnZqw8h5XEKVIrLfc16Lm09AgJxGNyLhUBLXL6v45yQSJvslaHRnhLVwd5RoCdCUQAvD_BwE">Grocery</a></div>
-        <div><img src="download.jpeg" alt=""><a href="https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_16b1b6bf-0963-4612-9a8d-835a2e32ed7b_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=ZRQ4DKH28K8J">Mobiles</a></div>
-        <div><img src="Screenshot 2024-09-09 200733.png" alt=""><a href="https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p[]=facets.ideal_for%255B%255D%3DMen&p[]=facets.ideal_for%255B%255D%3Dmen&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_bc5b92cb-b33b-4b29-b94c-9872c1a5589a_1_372UD5BXDFYS_MC.AHHHWF67UPNB&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Fashion~Men%27s%2BTop%2BWear~All_AHHHWF67UPNB&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=AHHHWF67UPNB">Fashion</a></div>
-        <div><img src="top-electronic-home-appliances-to-buy-this-prime-day-sale.webp" alt=""><a href="https://www.flipkart.com/audio-video/pr?sid=0pm&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_cff962e6-761c-4287-b891-e6962fb8c998_1_372UD5BXDFYS_MC.9JGNW7M0TUHD&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Electronics~Audio~All_9JGNW7M0TUHD&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=9JGNW7M0TUHD">Electronics</a></div>
-        <div><img src="download (1).jpeg" alt=""><a href="https://www.flipkart.com/home-furnishing/pr?sid=jra&marketplace=FLIPKART&otracker=nmenu_sub_Home%20%26%20Furniture_0_Furnishing&fm=neo%2Fmerchandising&iid=M_f4a2331d-c135-4b5c-8a45-f3d8eb953e0b_1_372UD5BXDFYS_MC.A8O1FN5LHOZ5&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Home%2B%26%2BFurniture~Home%2BFurnishings~All_A8O1FN5LHOZ5&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=A8O1FN5LHOZ5">Home & Furniture</a></div>
-        <div><img src="Screenshot 2024-09-09 201350.png" alt=""><a href="https://www.flipkart.com/tvs-and-appliances-new-clp-store?fm=neo%2Fmerchandising&iid=M_90adf9f3-9420-47da-91e4-fb7aa6f1ae84_1_372UD5BXDFYS_MC.LO4IWVHA61BX&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_Appliances_LO4IWVHA61BX&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L0_view-all&cid=LO4IWVHA61BX">Appliance</a></div>
-        <div><img src="download (2).jpeg" alt=""><a href="https://www.flipkart.com/travel/flights?param=DTNavIcon&fm=neo%2Fmerchandising&iid=M_ef7e8918-6abb-470a-8fff-ca98b33b520f_1_372UD5BXDFYS_MC.V4ZPKTOAO321&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Travel_V4ZPKTOAO321&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L0_view-all&cid=V4ZPKTOAO321">Travel</a></div>
-        <div><img src="download (3).jpeg" alt=""><a href="https://www.flipkart.com/beauty-and-grooming/pr?sid=g9b&otracker=categorytree&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_82de90aa-697e-4705-ad8c-48818abea0db_1_372UD5BXDFYS_MC.NJKL2WGZ9KLB&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Beauty%2C%2BToys%2B%26%2BMore~Beauty%2B%26%2BPersonal%2BCare~View%2BAll_NJKL2WGZ9KLB&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=NJKL2WGZ9KLB">Beauty,Toys & More</a></div>
-        <div><img src="hero-xtreme-200r-bike-500x500.webp" alt=""><a href="https://www.flipkart.com/electric-scooters-store?fm=neo%2Fmerchandising&iid=M_ea49765a-7090-4c42-a1eb-cd675f2865b0_1_372UD5BXDFYS_MC.9QSXFO403TP1&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Two%2BWheelers~Electric%2BVehicles_9QSXFO403TP1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L1_view-all&cid=9QSXFO403TP1">Two Wheelers</a></div>
+        <div><img src="packaged-food-brands.png" alt=""><a
+                href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&semcmpid=SEM_grocery_perf_max_RC/BBNP&gad_source=1&gclid=CjwKCAjwufq2BhAmEiwAnZqw8h5XEKVIrLfc16Lm09AgJxGNyLhUBLXL6v45yQSJvslaHRnhLVwd5RoCdCUQAvD_BwE">Grocery</a>
+        </div>
+        <div><img src="download.jpeg" alt=""><a
+                href="https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_16b1b6bf-0963-4612-9a8d-835a2e32ed7b_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=ZRQ4DKH28K8J">Mobiles</a>
+        </div>
+        <div><img src="Screenshot 2024-09-09 200733.png" alt=""><a
+                href="https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p[]=facets.ideal_for%255B%255D%3DMen&p[]=facets.ideal_for%255B%255D%3Dmen&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_bc5b92cb-b33b-4b29-b94c-9872c1a5589a_1_372UD5BXDFYS_MC.AHHHWF67UPNB&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Fashion~Men%27s%2BTop%2BWear~All_AHHHWF67UPNB&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=AHHHWF67UPNB">Fashion</a>
+        </div>
+        <div><img src="top-electronic-home-appliances-to-buy-this-prime-day-sale.webp" alt=""><a
+                href="https://www.flipkart.com/audio-video/pr?sid=0pm&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_cff962e6-761c-4287-b891-e6962fb8c998_1_372UD5BXDFYS_MC.9JGNW7M0TUHD&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Electronics~Audio~All_9JGNW7M0TUHD&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=9JGNW7M0TUHD">Electronics</a>
+        </div>
+        <div><img src="download (1).jpeg" alt=""><a
+                href="https://www.flipkart.com/home-furnishing/pr?sid=jra&marketplace=FLIPKART&otracker=nmenu_sub_Home%20%26%20Furniture_0_Furnishing&fm=neo%2Fmerchandising&iid=M_f4a2331d-c135-4b5c-8a45-f3d8eb953e0b_1_372UD5BXDFYS_MC.A8O1FN5LHOZ5&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Home%2B%26%2BFurniture~Home%2BFurnishings~All_A8O1FN5LHOZ5&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=A8O1FN5LHOZ5">Home
+                & Furniture</a></div>
+        <div><img src="Screenshot 2024-09-09 201350.png" alt=""><a
+                href="https://www.flipkart.com/tvs-and-appliances-new-clp-store?fm=neo%2Fmerchandising&iid=M_90adf9f3-9420-47da-91e4-fb7aa6f1ae84_1_372UD5BXDFYS_MC.LO4IWVHA61BX&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_Appliances_LO4IWVHA61BX&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L0_view-all&cid=LO4IWVHA61BX">Appliance</a>
+        </div>
+        <div><img src="download (2).jpeg" alt=""><a
+                href="https://www.flipkart.com/travel/flights?param=DTNavIcon&fm=neo%2Fmerchandising&iid=M_ef7e8918-6abb-470a-8fff-ca98b33b520f_1_372UD5BXDFYS_MC.V4ZPKTOAO321&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Travel_V4ZPKTOAO321&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L0_view-all&cid=V4ZPKTOAO321">Travel</a>
+        </div>
+        <div><img src="download (3).jpeg" alt=""><a
+                href="https://www.flipkart.com/beauty-and-grooming/pr?sid=g9b&otracker=categorytree&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_82de90aa-697e-4705-ad8c-48818abea0db_1_372UD5BXDFYS_MC.NJKL2WGZ9KLB&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Beauty%2C%2BToys%2B%26%2BMore~Beauty%2B%26%2BPersonal%2BCare~View%2BAll_NJKL2WGZ9KLB&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=NJKL2WGZ9KLB">Beauty,Toys
+                & More</a></div>
+        <div><img src="hero-xtreme-200r-bike-500x500.webp" alt=""><a
+                href="https://www.flipkart.com/electric-scooters-store?fm=neo%2Fmerchandising&iid=M_ea49765a-7090-4c42-a1eb-cd675f2865b0_1_372UD5BXDFYS_MC.9QSXFO403TP1&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Two%2BWheelers~Electric%2BVehicles_9QSXFO403TP1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L1_view-all&cid=9QSXFO403TP1">Two
+                Wheelers</a></div>
     </div>
     <div class="banner">
         <img src="Screenshot 2024-09-13 161951.png" alt="">
@@ -174,27 +55,123 @@
 
     </div>
     <DIv class="icon">
-           <h2>Best of Electronics</h2>
-        <i class="ri-arrow-right-s-line"></i>
+        <h2>Best of Electronics</h2>
+        <a href="">
+            <i class="ri-arrow-right-s-line"></i>
+        </a>
     </DIv>
     <div class="display">
-        <div>
-        <a href="https://www.flipkart.com/audio-video/headset/pr?sid=0pm%2Cfcn&p%5B%5D=facets.connectivity%255B%255D%3DBluetooth&sort=popularity&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.price_range.from%3D599&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.headphone_type%255B%255D%3DTrue%2BWireless&param=86&hpid=WqCPtE2MbDEYEbYbttXC1qp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJHcmFiIE5vdyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IkFDQ0c2RFM3V0RKSEdXU0giLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJCZXN0IFRydWV3aXJlbGVzcyBIZWFkcGhvbmVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D"><img src="Screenshot 2024-09-13 194438.png" alt=""></a></div>
-        <div><img src="Screenshot 2024-09-13 194510.png" alt="">
-        <a href=""></a></div>
-        <div><img src="Screenshot 2024-09-13 194524.png" alt="">
-        <a href=""></a></div>
-        <div><img src="Screenshot 2024-09-13 194454.png" alt="">
-        <a href=""></a></div>
-        <div><img src="Screenshot 2024-09-13 194550.png" alt="">
-        <a href=""></a></div>
-        <div><img src="Screenshot 2024-09-13 194602.png" alt="">
-        <a href=""></a></div>
-        <div><img src="Screenshot 2024-09-13 194627.png" alt="">
-        <a href=""></a></div>
-        <div>
-        <a href="https://www.flipkart.com/computers/monitors/pr?sid=6bo%2C9no&fm=neo%2Fmerchandising&iid=M_ce1a6f68-d7d2-4ae1-875c-0d0877d9a11f_2_372UD5BXDFYS_MC.ECL5SFI77NSY&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&cid=ECL5SFI77NSY&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.brand%255B%255D%3DLenovo&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTc5NDkiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJNb25pdG9ycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6Ik1PTkc0OUZKQ1laRURXU1YiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19"><img src="Screenshot 2024-09-13 194642.png" alt=""></a></div>
-        
+
+        <a
+            href="https://www.flipkart.com/audio-video/headset/pr?sid=0pm%2Cfcn&p%5B%5D=facets.connectivity%255B%255D%3DBluetooth&sort=popularity&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.price_range.from%3D599&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.headphone_type%255B%255D%3DTrue%2BWireless&param=86&hpid=WqCPtE2MbDEYEbYbttXC1qp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJHcmFiIE5vdyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IkFDQ0c2RFM3V0RKSEdXU0giLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJCZXN0IFRydWV3aXJlbGVzcyBIZWFkcGhvbmVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D"><img
+                src="Screenshot 2024-09-13 194438.png" alt=""><h5>Best Wireless Headphones</h5><h3>Grab Now</h3></a>
+        <a
+            href="https://www.flipkart.com/search?q=projector&sid=6bo%2Ctia%2C1hx&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_na&as-pos=1&as-type=RECENT&suggestionId=projector%7CProjectors&requestId=d87fada1-a39f-4271-87db-99e9855c010c&as-backfill=on"><img
+                src="Screenshot 2024-09-13 194510.png" alt=""><h5>Projectors</h5><h3>At best price</h3></a>
+        <a
+            href="https://www.flipkart.com/search?q=monitor&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">
+            <img src="Screenshot 2024-09-13 194524.png" alt=""><h5>Monitors</h5><h3>From 6599</h3></a>
+
+        </a>
+        <a
+            href="://httpswww.flipkart.com/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&fm=neo%2Fmerchandising&iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&cid=7IRTITZ74DB6&hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR1g2V0czVlJEUEdaUyIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D"><img
+                src="Screenshot 2024-09-13 194454.png" alt=""><h5>Best of Shavers</h5><h3>From 1649</h3></a>
+        <a
+            href="https://www.flipkart.com/cameras/dslr-mirrorless/pr?sid=jek%2Cp31%2Ctrv&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.type%255B%255D%3DMirrorless&param=179&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJTaG9wIE5vdyEiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJUb3AgTWlycm9ybGVzcyBDYW1lcmFzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiRExMR1FBUVlOVDM5WkpURyIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D">
+            <img src="Screenshot 2024-09-13 194550.png" alt=""><h5>Top Mirrorless Cameras</h5><h3>Shop Now!</h3>
+
+        </a>
+        <a
+            href="https://www.flipkart.com/search?q=women+products&sid=g9b%2Cema&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_2_9_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_2_9_na_na_na&as-pos=2&as-type=RECENT&suggestionId=women+products%7CBody+%26+Face+Skin+Care&requestId=137e3fcd-0f7c-4b19-be67-3d864c045c02&as-backfill=on">
+            <img src="Screenshot 2024-09-13 194602.png" alt="">
+            <h5>Women products</h5><h3>Best offers</h3></a>
+        </a>
+        <a
+            href="https://www.flipkart.com/search?q=ips+panel+monitor&sid=6bo%2Cg0i%2C9no&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&as-pos=1&as-type=RECENT&suggestionId=ips+panel+monitor%7CMonitors&requestId=ddcb2ff5-a104-4304-8287-b7a47bba1c8c&as-backfill=on">
+            <img src="Screenshot 2024-09-13 194627.png" alt="">
+            <h5>Budgets Monitors</h5><h3>Lowest price ever</h3></a>
+        </a>
+
+        <a
+            href="https://www.flipkart.com/search?q=gaming+monitor+4k&as=on&as-show=on&otracker=AS_Query_OrganicAutoSuggest_3_8_na_na_na&otracker1=AS_Query_OrganicAutoSuggest_3_8_na_na_na&as-pos=3&as-type=RECENT&suggestionId=gaming+monitor+4k&requestId=5be9f9e3-b8e9-46df-beab-cac31b189534&as-backfill=on"><img
+                src="Screenshot 2024-09-13 194642.png" alt=""><h5>Gaming Monitors</h5><h3>From 49999</h3></a></a>
+
+    </div>
+    
+    <div class="display">
+
+        <a
+            href="https://www.flipkart.com/audio-video/headset/pr?sid=0pm%2Cfcn&p%5B%5D=facets.connectivity%255B%255D%3DBluetooth&sort=popularity&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.price_range.from%3D599&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.headphone_type%255B%255D%3DTrue%2BWireless&param=86&hpid=WqCPtE2MbDEYEbYbttXC1qp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJHcmFiIE5vdyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IkFDQ0c2RFM3V0RKSEdXU0giLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJCZXN0IFRydWV3aXJlbGVzcyBIZWFkcGhvbmVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D"><img
+                src="Screenshot 2024-09-13 194438.png" alt=""><h5>Best Wireless Headphones</h5><h3>Grab Now</h3></a>
+        <a
+            href="https://www.flipkart.com/search?q=projector&sid=6bo%2Ctia%2C1hx&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_na&as-pos=1&as-type=RECENT&suggestionId=projector%7CProjectors&requestId=d87fada1-a39f-4271-87db-99e9855c010c&as-backfill=on"><img
+                src="Screenshot 2024-09-13 194510.png" alt=""><h5>Projectors</h5><h3>At best price</h3></a>
+        <a
+            href="https://www.flipkart.com/search?q=monitor&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">
+            <img src="Screenshot 2024-09-13 194524.png" alt=""><h5>Monitors</h5><h3>From 6599</h3></a>
+
+        </a>
+        <a
+            href="://httpswww.flipkart.com/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&fm=neo%2Fmerchandising&iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&cid=7IRTITZ74DB6&hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR1g2V0czVlJEUEdaUyIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D"><img
+                src="Screenshot 2024-09-13 194454.png" alt=""><h5>Best of Shavers</h5><h3>From 1649</h3></a>
+        <a
+            href="https://www.flipkart.com/cameras/dslr-mirrorless/pr?sid=jek%2Cp31%2Ctrv&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.type%255B%255D%3DMirrorless&param=179&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJTaG9wIE5vdyEiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJUb3AgTWlycm9ybGVzcyBDYW1lcmFzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiRExMR1FBUVlOVDM5WkpURyIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D">
+            <img src="Screenshot 2024-09-13 194550.png" alt=""><h5>Top Mirrorless Cameras</h5><h3>Shop Now!</h3>
+
+        </a>
+        <a
+            href="https://www.flipkart.com/search?q=women+products&sid=g9b%2Cema&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_2_9_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_2_9_na_na_na&as-pos=2&as-type=RECENT&suggestionId=women+products%7CBody+%26+Face+Skin+Care&requestId=137e3fcd-0f7c-4b19-be67-3d864c045c02&as-backfill=on">
+            <img src="Screenshot 2024-09-13 194602.png" alt="">
+            <h5>Women products</h5><h3>Best offers</h3></a>
+        </a>
+        <a
+            href="https://www.flipkart.com/search?q=ips+panel+monitor&sid=6bo%2Cg0i%2C9no&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&as-pos=1&as-type=RECENT&suggestionId=ips+panel+monitor%7CMonitors&requestId=ddcb2ff5-a104-4304-8287-b7a47bba1c8c&as-backfill=on">
+            <img src="Screenshot 2024-09-13 194627.png" alt="">
+            <h5>Budgets Monitors</h5><h3>Lowest price ever</h3></a>
+        </a>
+
+        <a
+            href="https://www.flipkart.com/search?q=gaming+monitor+4k&as=on&as-show=on&otracker=AS_Query_OrganicAutoSuggest_3_8_na_na_na&otracker1=AS_Query_OrganicAutoSuggest_3_8_na_na_na&as-pos=3&as-type=RECENT&suggestionId=gaming+monitor+4k&requestId=5be9f9e3-b8e9-46df-beab-cac31b189534&as-backfill=on"><img
+                src="Screenshot 2024-09-13 194642.png" alt=""><h5>Gaming Monitors</h5><h3>From 49999</h3></a></a>
+
+    </div>
+    <div class="display">
+
+        <a
+            href="https://www.flipkart.com/audio-video/headset/pr?sid=0pm%2Cfcn&p%5B%5D=facets.connectivity%255B%255D%3DBluetooth&sort=popularity&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.price_range.from%3D599&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.headphone_type%255B%255D%3DTrue%2BWireless&param=86&hpid=WqCPtE2MbDEYEbYbttXC1qp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJHcmFiIE5vdyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IkFDQ0c2RFM3V0RKSEdXU0giLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJCZXN0IFRydWV3aXJlbGVzcyBIZWFkcGhvbmVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D"><img
+                src="Screenshot 2024-09-13 194438.png" alt=""><h5>Best Wireless Headphones</h5><h3>Grab Now</h3></a>
+        <a
+            href="https://www.flipkart.com/search?q=projector&sid=6bo%2Ctia%2C1hx&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_na&as-pos=1&as-type=RECENT&suggestionId=projector%7CProjectors&requestId=d87fada1-a39f-4271-87db-99e9855c010c&as-backfill=on"><img
+                src="Screenshot 2024-09-13 194510.png" alt=""><h5>Projectors</h5><h3>At best price</h3></a>
+        <a
+            href="https://www.flipkart.com/search?q=monitor&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">
+            <img src="Screenshot 2024-09-13 194524.png" alt=""><h5>Monitors</h5><h3>From 6599</h3></a>
+
+        </a>
+        <a
+            href="://httpswww.flipkart.com/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw%2C79s%2Cu3j&fm=neo%2Fmerchandising&iid=M_abc94b2e-c5ad-4d9f-a408-f077e0b71fda_1_372UD5BXDFYS_MC.7IRTITZ74DB6&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&cid=7IRTITZ74DB6&hpid=zGQlhArn0YmltUO10UPgIKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsNjQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU0hWR1g2V0czVlJEUEdaUyIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgU2hhdmVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D"><img
+                src="Screenshot 2024-09-13 194454.png" alt=""><h5>Best of Shavers</h5><h3>From 1649</h3></a>
+        <a
+            href="https://www.flipkart.com/cameras/dslr-mirrorless/pr?sid=jek%2Cp31%2Ctrv&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.type%255B%255D%3DMirrorless&param=179&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJTaG9wIE5vdyEiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJUb3AgTWlycm9ybGVzcyBDYW1lcmFzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiRExMR1FBUVlOVDM5WkpURyIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D">
+            <img src="Screenshot 2024-09-13 194550.png" alt=""><h5>Top Mirrorless Cameras</h5><h3>Shop Now!</h3>
+
+        </a>
+        <a
+            href="https://www.flipkart.com/search?q=women+products&sid=g9b%2Cema&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_2_9_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_2_9_na_na_na&as-pos=2&as-type=RECENT&suggestionId=women+products%7CBody+%26+Face+Skin+Care&requestId=137e3fcd-0f7c-4b19-be67-3d864c045c02&as-backfill=on">
+            <img src="Screenshot 2024-09-13 194602.png" alt="">
+            <h5>Women products</h5><h3>Best offers</h3></a>
+        </a>
+        <a
+            href="https://www.flipkart.com/search?q=ips+panel+monitor&sid=6bo%2Cg0i%2C9no&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&as-pos=1&as-type=RECENT&suggestionId=ips+panel+monitor%7CMonitors&requestId=ddcb2ff5-a104-4304-8287-b7a47bba1c8c&as-backfill=on">
+            <img src="Screenshot 2024-09-13 194627.png" alt="">
+            <h5>Budgets Monitors</h5><h3>Lowest price ever</h3></a>
+        </a>
+
+        <a
+            href="https://www.flipkart.com/search?q=gaming+monitor+4k&as=on&as-show=on&otracker=AS_Query_OrganicAutoSuggest_3_8_na_na_na&otracker1=AS_Query_OrganicAutoSuggest_3_8_na_na_na&as-pos=3&as-type=RECENT&suggestionId=gaming+monitor+4k&requestId=5be9f9e3-b8e9-46df-beab-cac31b189534&as-backfill=on"><img
+                src="Screenshot 2024-09-13 194642.png" alt=""><h5>Gaming Monitors</h5><h3>From 49999</h3></a></a>
+
     </div>
 </body>
+
 </html>

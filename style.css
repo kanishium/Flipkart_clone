@@ -56,6 +56,10 @@
     width: 30px;
     font-size: 24px;
 }
+.top a :hover{
+    background-color: rgb(0, 115, 255);
+    color: white;
+}
 .ri-shopping-cart-2-line{
     color:black;
     background-color: white;
@@ -182,7 +186,6 @@ width: 130px;
     background-color: white;
     border-radius: 7px;
 }
-
 .display a {
     background-color: white;
     color: black;
